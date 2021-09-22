@@ -3,9 +3,10 @@
     <v-app-bar dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <a href="/" class="text-decoration-none">
-        <span class="white--text lobster2 grey--text">Ninja</span><span class=" white--text lobster2">Smoothies</span>
-        </a>
+        <router-link to="/" class="text-decoration-none">
+          <span class="white--text lobster2 grey--text">My</span
+          ><span class="white--text lobster2">Smoothies</span>
+        </router-link>
       </v-toolbar-title>
     </v-app-bar>
 
@@ -40,5 +41,4 @@ export default {
 </script>
 
 <style>
-
 </style>
